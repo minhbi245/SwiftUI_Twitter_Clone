@@ -23,7 +23,9 @@ struct ConversationCell: View {
                     Text("Longer messgae test to see what happens when I do this.")
                         .font(.system(size: 15, weight: .regular))
                         .lineLimit(2)
-                }).padding(.trailing, 8)
+                })
+                .padding(.trailing, 8)
+                .foregroundColor(.black)
             }
             Divider()
         }
