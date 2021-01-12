@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B4DA64A25AD5C38006866B0 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA64925AD5C38006866B0 /* MessageInputView.swift */; };
+		8B4DA64D25AD5D5F006866B0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA64C25AD5D5F006866B0 /* ChatView.swift */; };
+		8B4DA65025AD8405006866B0 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA64F25AD8405006866B0 /* ChatBubble.swift */; };
+		8B4DA65325AD8A43006866B0 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA65225AD8A43006866B0 /* Message.swift */; };
+		8B4DA65625AD94F0006866B0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA65525AD94F0006866B0 /* MessageView.swift */; };
+		8B4DA65925AD9A00006866B0 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA65825AD9A00006866B0 /* NewMessageView.swift */; };
 		8B69C4C025A856B00001918A /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69C4BF25A856B00001918A /* FeedView.swift */; };
 		8B69C4C425A85C9F0001918A /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B69C4C325A85C9F0001918A /* TweetCell.swift */; };
 		8BDABCEA25A70EBB00ACD671 /* TwitterCloneSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDABCE925A70EBB00ACD671 /* TwitterCloneSwiftUIApp.swift */; };
@@ -21,6 +27,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B4DA64925AD5C38006866B0 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		8B4DA64C25AD5D5F006866B0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		8B4DA64F25AD8405006866B0 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
+		8B4DA65225AD8A43006866B0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8B4DA65525AD94F0006866B0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		8B4DA65825AD9A00006866B0 /* NewMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageView.swift; sourceTree = "<group>"; };
 		8B69C4BF25A856B00001918A /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8B69C4C325A85C9F0001918A /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 		8BDABCE625A70EBB00ACD671 /* TwitterCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +83,7 @@
 		8B69C4BE25A8565C0001918A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8B4DA65225AD8A43006866B0 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -118,6 +131,11 @@
 			children = (
 				8BF999B725A8E7E800E44081 /* ConversationsView.swift */,
 				8BF999BB25A8E80200E44081 /* ConversationCell.swift */,
+				8B4DA64925AD5C38006866B0 /* MessageInputView.swift */,
+				8B4DA64C25AD5D5F006866B0 /* ChatView.swift */,
+				8B4DA64F25AD8405006866B0 /* ChatBubble.swift */,
+				8B4DA65525AD94F0006866B0 /* MessageView.swift */,
+				8B4DA65825AD9A00006866B0 /* NewMessageView.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -192,13 +210,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BF999AE25A89A5D00E44081 /* SearchView.swift in Sources */,
+				8B4DA64A25AD5C38006866B0 /* MessageInputView.swift in Sources */,
 				8BDABCEC25A70EBB00ACD671 /* ContentView.swift in Sources */,
 				8B69C4C025A856B00001918A /* FeedView.swift in Sources */,
+				8B4DA64D25AD5D5F006866B0 /* ChatView.swift in Sources */,
 				8BF999B825A8E7E800E44081 /* ConversationsView.swift in Sources */,
 				8BDABCEA25A70EBB00ACD671 /* TwitterCloneSwiftUIApp.swift in Sources */,
+				8B4DA65025AD8405006866B0 /* ChatBubble.swift in Sources */,
 				8B69C4C425A85C9F0001918A /* TweetCell.swift in Sources */,
+				8B4DA65925AD9A00006866B0 /* NewMessageView.swift in Sources */,
+				8B4DA65325AD8A43006866B0 /* Message.swift in Sources */,
 				8BF999B125A89AED00E44081 /* SearchBar.swift in Sources */,
 				8BF999B425A89E7D00E44081 /* UserCell.swift in Sources */,
+				8B4DA65625AD94F0006866B0 /* MessageView.swift in Sources */,
 				8BF999BC25A8E80200E44081 /* ConversationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
