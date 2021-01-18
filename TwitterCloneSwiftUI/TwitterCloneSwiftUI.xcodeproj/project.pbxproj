@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B10814525B4754400CA9F41 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10814425B4754400CA9F41 /* ProfileHeaderView.swift */; };
+		8B10814825B4755200CA9F41 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10814725B4755200CA9F41 /* ProfileActionButtonView.swift */; };
+		8B10814B25B4755E00CA9F41 /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B10814A25B4755E00CA9F41 /* FilterButtonView.swift */; };
 		8B4DA64A25AD5C38006866B0 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA64925AD5C38006866B0 /* MessageInputView.swift */; };
 		8B4DA64D25AD5D5F006866B0 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA64C25AD5D5F006866B0 /* ChatView.swift */; };
 		8B4DA65025AD8405006866B0 /* ChatBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DA64F25AD8405006866B0 /* ChatBubble.swift */; };
@@ -19,6 +22,7 @@
 		8BDABCEC25A70EBB00ACD671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDABCEB25A70EBB00ACD671 /* ContentView.swift */; };
 		8BDABCEE25A70EBD00ACD671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDABCED25A70EBD00ACD671 /* Assets.xcassets */; };
 		8BDABCF125A70EBD00ACD671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDABCF025A70EBD00ACD671 /* Preview Assets.xcassets */; };
+		8BEC984125B4726300B12762 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC984025B4726300B12762 /* UserProfileView.swift */; };
 		8BF999AE25A89A5D00E44081 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF999AD25A89A5D00E44081 /* SearchView.swift */; };
 		8BF999B125A89AED00E44081 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF999B025A89AED00E44081 /* SearchBar.swift */; };
 		8BF999B425A89E7D00E44081 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF999B325A89E7D00E44081 /* UserCell.swift */; };
@@ -27,6 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B10814425B4754400CA9F41 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		8B10814725B4755200CA9F41 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
+		8B10814A25B4755E00CA9F41 /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
 		8B4DA64925AD5C38006866B0 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 		8B4DA64C25AD5D5F006866B0 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		8B4DA64F25AD8405006866B0 /* ChatBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubble.swift; sourceTree = "<group>"; };
@@ -41,6 +48,7 @@
 		8BDABCED25A70EBD00ACD671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BDABCF025A70EBD00ACD671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8BDABCF225A70EBD00ACD671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEC984025B4726300B12762 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		8BF999AD25A89A5D00E44081 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		8BF999B025A89AED00E44081 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		8BF999B325A89E7D00E44081 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -69,6 +77,7 @@
 		8B69C4BD25A8565B0001918A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8BEC983F25B4723E00B12762 /* Profile */,
 				8BF999B625A8E7D500E44081 /* Messages */,
 				8BDABCEB25A70EBB00ACD671 /* ContentView.swift */,
 				8B69C4BF25A856B00001918A /* FeedView.swift */,
@@ -124,6 +133,17 @@
 				8BDABCF025A70EBD00ACD671 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BEC983F25B4723E00B12762 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8BEC984025B4726300B12762 /* UserProfileView.swift */,
+				8B10814425B4754400CA9F41 /* ProfileHeaderView.swift */,
+				8B10814725B4755200CA9F41 /* ProfileActionButtonView.swift */,
+				8B10814A25B4755E00CA9F41 /* FilterButtonView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		8BF999B625A8E7D500E44081 /* Messages */ = {
@@ -213,14 +233,18 @@
 				8B4DA64A25AD5C38006866B0 /* MessageInputView.swift in Sources */,
 				8BDABCEC25A70EBB00ACD671 /* ContentView.swift in Sources */,
 				8B69C4C025A856B00001918A /* FeedView.swift in Sources */,
+				8B10814525B4754400CA9F41 /* ProfileHeaderView.swift in Sources */,
 				8B4DA64D25AD5D5F006866B0 /* ChatView.swift in Sources */,
 				8BF999B825A8E7E800E44081 /* ConversationsView.swift in Sources */,
+				8B10814B25B4755E00CA9F41 /* FilterButtonView.swift in Sources */,
 				8BDABCEA25A70EBB00ACD671 /* TwitterCloneSwiftUIApp.swift in Sources */,
 				8B4DA65025AD8405006866B0 /* ChatBubble.swift in Sources */,
 				8B69C4C425A85C9F0001918A /* TweetCell.swift in Sources */,
 				8B4DA65925AD9A00006866B0 /* NewMessageView.swift in Sources */,
 				8B4DA65325AD8A43006866B0 /* Message.swift in Sources */,
+				8BEC984125B4726300B12762 /* UserProfileView.swift in Sources */,
 				8BF999B125A89AED00E44081 /* SearchBar.swift in Sources */,
+				8B10814825B4755200CA9F41 /* ProfileActionButtonView.swift in Sources */,
 				8BF999B425A89E7D00E44081 /* UserCell.swift in Sources */,
 				8B4DA65625AD94F0006866B0 /* MessageView.swift in Sources */,
 				8BF999BC25A8E80200E44081 /* ConversationCell.swift in Sources */,
